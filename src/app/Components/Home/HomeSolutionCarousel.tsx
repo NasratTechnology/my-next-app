@@ -1,12 +1,12 @@
 "use client"; 
 import React from 'react';
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Image from 'next/image';
 import Link from 'next/link';
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const HomeSolutionCarousel = () => {
   return (
@@ -17,10 +17,14 @@ const HomeSolutionCarousel = () => {
         </div>        
       <div className='container w-full pb-12'>
         <div className="w-full mx-auto mt-10">
-          {/* <Swiper
+          <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
-            slidesPerView={4}loop={true}  
+            slidesPerView={4}loop={true}             
+            // autoplay={{
+            //   delay: 5000, 
+            //   disableOnInteraction: true,
+            // }}
             navigation
             pagination={false}
             className="" >
@@ -104,7 +108,7 @@ const HomeSolutionCarousel = () => {
                   </div>
                </div>
             </SwiperSlide>
-          </Swiper> */}
+          </Swiper>
         </div>
       </div>
     </section>
