@@ -8,7 +8,7 @@ export default function NavigationHead() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="bg-white shadow-md">
-      <div className="container mx-auto px-6 sm:px-0">
+      <div className="container mx-auto px-6 sm:px-0">   
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
