@@ -9,12 +9,12 @@ export default function NavigationHead() {
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-6 sm:px-0">   
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-10 sm:h-16">
           {/* Logo */}
           <div className="flex items-center">
             <div className="md:hidden flex items-center">
               <Link href="/" className="text-xl font-bold text-gray-800">
-                  <Image src="/logo-ntpl-png.png" alt="Logo Image" className="w-auto h-auto" width={70} height={80} />
+                  <Image src="/logo-ntpl-png.png" alt="Logo Image" className="w-auto h-auto" width={60} height={70} />
               </Link>
             </div>
             <div className='hidden md:flex'>
