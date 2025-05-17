@@ -17,8 +17,8 @@ const HomeAbout = () => {
                       <div className='flex items-center justify-center w-full'>
                           <Image src="/seo.png" alt="seo" className="w-auto h-auto" width={40} height={50} />
                       </div>
-                      <div className='text-[13px] uppercase font-medium w-full mt-1.5'>Lorem ipsum dolor sit</div>
-                      <div className='text-[14px] w-full mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+                      <div className='text-[13px] uppercase font-medium w-full mt-1.5 text-black'>Lorem ipsum dolor sit</div>
+                      <div className='text-[14px] w-full mt-2 text-[#222]'>Lorem ipsum dolor sit amet, consectetur adipisicing</div>
                   </li>
                   <li className='border-b border-[#ccc] border-dotted pb-4 md:pb-0 md:border-0 flex flex-wrap w-full md:w-1/3 justify-center w-1/3 relative md:after:content-[""] md:after:absolute md:after:right-[-20px] md:after:top-0 md:after:w-[1px] md:after:h-[130px] md:after:border-r md:after:border-dotted md:after:border-gray-800 md:pb-4'>
                       <div className='flex items-center justify-center w-full'>
