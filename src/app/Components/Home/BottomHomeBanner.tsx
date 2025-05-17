@@ -11,7 +11,7 @@ const BottomHomeBanner = () => {
                             <div className="flex items-center">
                                 <Image src="/quality.png" alt="icon phone" className="w-auto h-auto" width={30} height={30} />
                             </div>
-                            <div className="">
+                            <div className="text-[#f00]">
                                 <div className="text-[.8rem] sm:text-base font-bold">Premium Quality Work</div>
                                 <div className="text-[.8rem] sm:text-base">You only get premium quality work</div>
                             </div>
