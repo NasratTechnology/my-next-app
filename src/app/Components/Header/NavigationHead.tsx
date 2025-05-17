@@ -14,11 +14,11 @@ export default function NavigationHead() {
           <div className="flex items-center">
             <div className="md:hidden flex items-center">
               <Link href="/" className="text-xl font-bold text-gray-800">
-                MySite
+                  <Image src="/logo-ntpl-png.png" alt="Logo Image" className="w-auto h-auto" width={70} height={80} />
               </Link>
             </div>
             <div className='hidden md:flex'>
-              <div className="space-x-8 items-center">
+              <div className="space-x-8 items-center uppercase font-bold text-sm">
                 <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
                 <Link href="/about" className="text-gray-700 hover:text-blue-600">About Us</Link>
                 <Link href="/Services" className="text-gray-700 hover:text-blue-600">Services</Link>
@@ -76,14 +76,14 @@ export default function NavigationHead() {
       </div>
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2">
-            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600">About Us</Link>
-            <Link href="/Services" className="text-gray-700 hover:text-blue-600">Services</Link>
-            <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Work Portfolio</Link>
-            <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Product Outlet</Link>
-            <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Conatct Us</Link>
-            <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Request a Quote</Link>
+        <div className="md:hidden px-4 pb-4 space-y-2 pt-1 flex flex-wrap bg-gradient-to-l from-[#ffa455] to-[#ff3876] uppercase font-bold text-sm text-[#fff]">
+            <Link href="/" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Home</Link>
+            <Link href="/about" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">About Us</Link>
+            <Link href="/Services" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Services</Link>
+            <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Work Portfolio</Link>
+            <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Product Outlet</Link>
+            <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Conatct Us</Link>
+            <Link href="/WorkPortfolio" className="w-100 text-[#fff]">Request a Quote</Link>
         </div>
       )}
     </nav>
