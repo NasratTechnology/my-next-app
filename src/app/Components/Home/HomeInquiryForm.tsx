@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const HomeInquiryForm = () => {
   return (
-    <section className='flex flex-wrap w-full justify-center mt-12 bg-gradient-to-b from-[#D6FFFC] to-[#ffeff5] pt-13 pb-16'>
+    <section className='flex flex-wrap w-full justify-center md:mt-12 bg-gradient-to-b from-[#D6FFFC] to-[#ffeff5] pt-13 pb-16'>
       <div className='container flex w-full justify-center flex-wrap gap-8 box-border'>
-          <div className='w-[56%]'>
-              <div>
+          <div className='w-full md:w-[56%]'>
+              <div className='text-black'>
                 <div className='text-base'>Help us Know You</div>
                 <div className='text-2xl font-medium'>Have Question? Write a message</div>
               </div>
@@ -14,20 +14,20 @@ const HomeInquiryForm = () => {
                 <form className="w-full mx-auto mt-5 p-6 bg-white rounded-2xl space-y-4">
                   <div>
                     <label className="block text-gray-600 mb-1">Name</label>
-                    <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your name"/>
+                    <input type="text" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" placeholder="Your name"/>
                   </div>
                   <div>
                     <label className="block text-gray-600 mb-1">Email</label>
                     <input
                       type="email"
-                      className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
                       placeholder="Your email"
                     />
                   </div>
                   <div>
                     <label className="block text-gray-600 mb-1">Message</label>
                     <textarea
-                      className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your message"></textarea>
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black" placeholder="Your message"></textarea>
                   </div>
                   <button
                     type="submit"
