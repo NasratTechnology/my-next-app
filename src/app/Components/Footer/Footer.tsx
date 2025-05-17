@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
     <section className='w-full bg-gradient-to-b from-[#0B1233] to-[#041662] flex flex-wrap justify-center'>
-      <div className='container '>
+      <div className='container p-4 '>
         <FooterTop />
         <FooterLogo />
         <FooterSocial />

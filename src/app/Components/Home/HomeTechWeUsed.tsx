@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HomeTechWeUsed = () => {
   return (
-    <section className='flex flex-wrap w-full justify-center text-center pt-4 pb-4 bg-white'> 
+    <section className='flex flex-wrap w-full justify-center text-center p-4 pt-4 pb-4 bg-white'> 
       <div className='container flex w-full justify-center flex-wrap mt-2 md:mt-8'>
         <div className='w-full text-left text-2xl text-black'>Technologies we used</div>
         <div className='w-full flex justify-center mt-8'>
