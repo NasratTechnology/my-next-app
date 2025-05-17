@@ -11,7 +11,7 @@ const BottomHomeBanner = () => {
                             <div className="flex items-center">
                                 <Image src="/quality.png" alt="icon phone" className="w-auto h-auto" width={30} height={30} />
                             </div>
-                            <div className="text-[#555]"> 
+                            <div className="text-[#2b2b2b]">    
                                 <div className="text-[.8rem] sm:text-base font-bold">Premium Quality Work</div>
                                 <div className="text-[.8rem] sm:text-base">You only get premium quality work</div>
                             </div>
@@ -20,7 +20,7 @@ const BottomHomeBanner = () => {
                             <div className="flex items-center">
                                 <Image src="/price.png" alt="icon phone" className="w-auto h-auto" width={30} height={30} />
                             </div>
-                            <div className="text-[#555]">
+                            <div className="text-[#2b2b2b]">
                                 <div className="text-[.8rem] sm:text-base font-bold">Reasonable Price</div>
                                 <div className="text-[.8rem] sm:text-base">The price is always reasonable & good</div>
                             </div>
@@ -29,7 +29,7 @@ const BottomHomeBanner = () => {
                             <div className="flex items-center">
                                 <Image src="/ontime.png" alt="icon phone" className="w-auto h-auto" width={30} height={30} />
                             </div>
-                            <div className="text-[#555]">
+                            <div className="text-[#2b2b2b]">
                                 <div className="text-[.8rem] sm:text-base font-bold">On Time Delivery</div>
                                 <div className="text-[.8rem] sm:text-base">Our delivery is always on time</div>
                             </div>
@@ -38,7 +38,7 @@ const BottomHomeBanner = () => {
                             <div className="flex items-center">
                                 <Image src="/support.png" alt="icon phone" className="w-auto h-auto" width={30} height={30} />
                             </div>
-                            <div className="text-[#555]"> 
+                            <div className="text-[#2b2b2b]"> 
                                 <div className="text-[.8rem] sm:text-base font-bold">Customer Support</div>
                                 <div className="text-[.8rem] sm:text-base">We give you a 24 * 7 support</div>
                             </div>
