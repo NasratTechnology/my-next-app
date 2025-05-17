@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 const HomeSolutionCarousel = () => {
   return (
-    <section className='flex flex-wrap justify-center w-full mt-25 pt-16 bg-gray-100'>
+    <section className='flex flex-wrap justify-center w-full mt-8 md:mt-25 pt-16 bg-gray-100'>
         <div className='flex flex-wrap w-full text-center'>
           <div className='text-base w-full'>Fulfilling Your Needs for Future</div>
           <div className='text-2xl w-full'>Right Digital Needs with Right Solution</div>
