@@ -5,12 +5,12 @@ const FooterGetInTouch = () => {
   return (    
     <section className='flex w-full justify-between mt-9'>
       <ul className='w-full flex flex-wrap md:flex-nowrap justify-center text-white gap-8'>
-        <li className='flex w-full md:w-1/4 justify-center gap-1 align-middle items-center'>
+        <li className='flex w-full md:w-[292px] justify-center gap-1 align-middle items-center'>
           <div className='bg-[#080f33] w-[280px] h-[120px] text-center flex items-center justify-center flex-wrap p-4 text-[#ccc]'>
             <div className='w-full'>Get in Touch</div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-phone-white.png" alt='' width={20} height={20} /></div>
-              <div>+91 998877665544</div>
+              <div>+91 9988776655</div>
             </div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-envelope-white.png" alt='' width={20} height={20} /></div>
@@ -18,12 +18,12 @@ const FooterGetInTouch = () => {
             </div>
           </div>
         </li>
-        <li className='flex w-full md:w-1/4 justify-center gap-1 align-middle items-center'>
+        <li className='flex w-full md:w-[292px] justify-center gap-1 align-middle items-center'>
           <div className='bg-[#080f33] w-[280px] h-[120px] text-center flex items-center justify-center flex-wrap p-4 text-[#ccc]'>
             <div className='w-full'>Get in Touch</div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-phone-white.png" alt='' width={20} height={20} /></div>
-              <div>+91 998877665544</div>
+              <div>+91 9988776644</div>
             </div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-envelope-white.png" alt='' width={20} height={20} /></div>
@@ -31,12 +31,12 @@ const FooterGetInTouch = () => {
             </div>
           </div>
         </li>
-        <li className='flex w-full md:w-1/4 justify-center gap-1 align-middle items-center'>
+        <li className='flex w-full md:w-[292px] justify-center gap-1 align-middle items-center'>
           <div className='bg-[#080f33] w-[280px] h-[120px] text-center flex items-center justify-center flex-wrap p-4 text-[#ccc]'>
             <div className='w-full'>Get in Touch</div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-phone-white.png" alt='' width={20} height={20} /></div>
-              <div>+91 998877665544</div>
+              <div>+91 9988775544</div>
             </div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-envelope-white.png" alt='' width={20} height={20} /></div>
@@ -44,12 +44,12 @@ const FooterGetInTouch = () => {
             </div>
           </div>
         </li>
-        <li className='flex w-full md:w-1/4 justify-center gap-1 align-middle items-center'>
+        <li className='flex w-full md:w-[292px] justify-center gap-1 align-middle items-center'>
           <div className='bg-[#080f33] w-[280px] h-[120px] text-center flex items-center justify-center flex-wrap p-4 text-[#ccc]'>
             <div className='w-full'>Get in Touch</div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-phone-white.png" alt='' width={20} height={20} /></div>
-              <div>+91 998877665544</div>
+              <div>+91 9988665544</div>
             </div>
             <div className='w-full flex justify-center gap-1 items-center'>
               <div><Image src="/icon-envelope-white.png" alt='' width={20} height={20} /></div>
