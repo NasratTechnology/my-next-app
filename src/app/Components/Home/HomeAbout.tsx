@@ -10,23 +10,23 @@ const HomeAbout = () => {
           <div className='text-base mt-4 text-gray-800 leading-8'>Through advanced technologies and innovative solutions, we enable clients to optimize operations, enhance customer experiences, and achieve 
             ustainable growth through digital transformation.</div> 
           <h2>Creating Impact Through Exceptional Digital Experiences</h2>
-          {/* <div className='text-base mt-4 text-gray-800 leading-8'>
+          <div className='text-base mt-4 text-gray-800 leading-8'>
           Nasra Technology is a full-stack software development company, backed by a
           global team of skilled professionals passionate about building impactful digital
           products that improve lives and reshape industries at scale.<br />
-          Since 2020, we've partnered with clients around the world to elevate their
+          Since 2020, we have partnered with clients around the world to elevate their
           digital strategies through cutting-edge technologies, robust platforms, and
           scalable frameworks. Our experience, attention to detail, and commitment to
           excellence make us a trusted partner—from concept and design to launch and
           long-term support. <br />
           We pride ourselves on delivering solutions grounded in research, built with
           sustainable, high-quality code, and developed through transparent,
-          collaborative partnerships. At Nasra Technology, we don't just build software—
+          collaborative partnerships. At Nasra Technology, we do not just build software—
           we create digital products that drive real value, accelerate growth, and stand
           the test of time.<br /><br />
           <strong>At Shortcut Nasra Technology, we shape the future of digital by crafting exceptional products for forward-thinking companies around the world.</strong>
-          </div>  */}
-        </div> 
+          </div> 
+        </div>
 
         <div className='container mt-16 text-center'> 
         <div className='list-homeAbout'>
@@ -82,7 +82,7 @@ const HomeAbout = () => {
                       </div>
                       <div className=' text-black'>
                         <div className='text-[13px] uppercase font-bold w-full mt-1.5'>Logo Design</div>
-                        <div className='text-[14px] w-full mt-2 text-[#222]'>It is very important to be uniquely seen by your customers</div> 
+                        <div className='text-[14px] w-full mt-2 text-[#222]'>It is very important to be uniquely seen by your customers</div>  
                       </div>
                   </li>
               </ul>
