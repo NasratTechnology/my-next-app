@@ -21,7 +21,7 @@ const HomeAbout = () => {
           long-term support. <br />
           We pride ourselves on delivering solutions grounded in research, built with
           sustainable, high-quality code, and developed through transparent,
-          collaborative partnerships. At Nasra Technology, we don’t just build software—
+          collaborative partnerships. At Nasra Technology, we don't just build software—
           we create digital products that drive real value, accelerate growth, and stand
           the test of time.<br /><br />
           <strong>At Shortcut Nasra Technology, we shape the future of digital by crafting exceptional products for forward-thinking companies around the world.</strong>
