@@ -10,7 +10,7 @@ const HomeAbout = () => {
           <div className='text-base mt-4 text-gray-800 leading-8'>Through advanced technologies and innovative solutions, we enable clients to optimize operations, enhance customer experiences, and achieve 
             ustainable growth through digital transformation.</div> 
           <h2>Creating Impact Through Exceptional Digital Experiences</h2>
-          <div className='text-base mt-4 text-gray-800 leading-8'>
+          {/* <div className='text-base mt-4 text-gray-800 leading-8'>
           Nasra Technology is a full-stack software development company, backed by a
           global team of skilled professionals passionate about building impactful digital
           products that improve lives and reshape industries at scale.<br />
@@ -25,8 +25,8 @@ const HomeAbout = () => {
           we create digital products that drive real value, accelerate growth, and stand
           the test of time.<br /><br />
           <strong>At Shortcut Nasra Technology, we shape the future of digital by crafting exceptional products for forward-thinking companies around the world.</strong>
-          </div> 
-        </div>
+          </div>  */}
+        </div> 
 
         <div className='container mt-16 text-center'> 
         <div className='list-homeAbout'>
