@@ -9,7 +9,7 @@ const HomeAbout = () => {
           <div className='text-2xl font-bold text-black pt-6'>About Nasra Technology</div>
           <div className='text-base mt-4 text-gray-800 leading-8'>Through advanced technologies and innovative solutions, we enable clients to optimize operations, enhance customer experiences, and achieve 
             ustainable growth through digital transformation.</div> 
-          <h2>Creating Impact Through Exceptional Digital Experiences</h2>
+          <h2 className='text-[#444]'>Creating Impact Through Exceptional Digital Experiences</h2>
           <div className='text-base mt-4 text-gray-800 leading-8'>
           Nasra Technology is a full-stack software development company, backed by a
           global team of skilled professionals passionate about building impactful digital
