@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const HomeInquiryForm = () => {
   return (
-    <section className='flex flex-wrap w-full justify-center p-4 md:mt-12 bg-gradient-to-b from-[#D6FFFC] to-[#ffeff5] pt-13 pb-16'>
+    <section className='flex flex-wrap w-full justify-center p-4 md:mt-12 bg-gradient-to-b from-[#D6FFFC] to-[#ffeff5] pt-13 pb-16' id='getaquote'>
       <div className='container flex w-full justify-center flex-wrap gap-8 box-border'>
           <div className='w-full md:w-[56%]'>
               <div className='text-black'>

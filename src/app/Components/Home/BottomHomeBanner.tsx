@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const BottomHomeBanner = () => {
   return (
-    <section className="w-full flex justify-center pt-3 pb-3 bg-gradient-to-t from-[#f8ecff] to-[#fffaf5]">
+    <section className="w-full flex justify-center pt-3 pb-3 bg-gradient-to-t from-[#f8ecff] to-[#fffaf5]" id='services'>
             <div className="container ">
                 <div className="flex w-full justify-center">
                     <ul className='flex flex-wrap w-full justify-between'>

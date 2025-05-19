@@ -20,12 +20,12 @@ export default function NavigationHead() {
             <div className='hidden md:flex'>
               <div className="space-x-8 items-center uppercase font-bold text-sm">
                 <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
-                <Link href="/about" className="text-gray-700 hover:text-blue-600">About Us</Link>
-                <Link href="/Services" className="text-gray-700 hover:text-blue-600">Services</Link>
+                <Link href="/#about" className="text-gray-700 hover:text-blue-600">About Us</Link>
+                <Link href="/#services" className="text-gray-700 hover:text-blue-600">Services</Link>
                 <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Work Portfolio</Link>
-                <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Product Outlet</Link>
-                <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Conatct Us</Link>
-                <Link href="/WorkPortfolio" className="text-gray-700 hover:text-blue-600">Request a Quote</Link>
+                <Link href="/#fulfilling" className="text-gray-700 hover:text-blue-600">Product Outlet</Link>
+                <Link href="/#footer" className="text-gray-700 hover:text-blue-600">Conatct Us</Link>
+                <Link href="/#getaquote" className="text-gray-700 hover:text-blue-600">Request a Quote</Link>
               </div>
             </div>
           </div>

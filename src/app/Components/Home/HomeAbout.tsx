@@ -4,7 +4,7 @@ import Image from 'next/image';
 const HomeAbout = () => {
   return (
     <>
-      <section className='flex justify-center w-full p-4 pt-4 md:pt-4 flex-wrap bg-white'>      
+      <section className='flex justify-center w-full p-4 pt-4 md:pt-4 flex-wrap bg-white' id='about'>      
         <div className='container text-left md:text-center'>
           <div className='text-2xl font-bold text-black pt-6'>About Nasra Technology</div>
           <div className='text-base mt-4 text-gray-800 leading-8'>Through advanced technologies and innovative solutions, we enable clients to optimize operations, enhance customer experiences, and achieve 

@@ -9,7 +9,7 @@ import FooterGetInTouchTop from './FooterGetInTouchTop';
 const Footer = () => {
   return (
     <>
-    <section className='w-full bg-gradient-to-b from-[#0B1233] to-[#041662] flex flex-wrap justify-center'>
+    <section className='w-full bg-gradient-to-b from-[#0B1233] to-[#041662] flex flex-wrap justify-center' id='footer'>
       <div className='container p-4 '>
         <FooterTop />
         <FooterLogo />
