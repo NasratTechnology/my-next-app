@@ -42,7 +42,7 @@ const HomeBanner = () => {
             </SwiperSlide>
             <SwiperSlide className='overflow-y-auto'>
                 <Image src="/banner-06.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
-            </SwiperSlide> 
+            </SwiperSlide>  
           </Swiper>
         </div>
       </div>
