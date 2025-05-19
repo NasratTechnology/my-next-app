@@ -26,14 +26,23 @@ const HomeBanner = () => {
             className="" 
           >
             <SwiperSlide className='overflow-y-auto'>
-               <Image src="/banner-01.png" alt="icon phone" className="w-full" width={1536} height={50} />
+               <Image src="/banner-01.jpg" alt="icon phone" className="w-full" width={1536} height={50} />
             </SwiperSlide>
             <SwiperSlide className='overflow-y-auto'>
-                <Image src="/banner-01.png" alt='epaper 2' className='w-full' width={1536} height={50} />
+                <Image src="/banner-02.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
             </SwiperSlide>
             <SwiperSlide className='overflow-y-auto'>
-                <Image src="/banner-01.png" alt='epaper 2' className='w-full' width={1536} height={50} />
+                <Image src="/banner-03.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
             </SwiperSlide>
+            <SwiperSlide className='overflow-y-auto'>
+                <Image src="/banner-04.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
+            </SwiperSlide>
+            <SwiperSlide className='overflow-y-auto'>
+                <Image src="/banner-05.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
+            </SwiperSlide>
+            <SwiperSlide className='overflow-y-auto'>
+                <Image src="/banner-06.jpg" alt='epaper 2' className='w-full' width={1536} height={50} />
+            </SwiperSlide> 
           </Swiper>
         </div>
       </div>
