@@ -78,12 +78,12 @@ export default function NavigationHead() {
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 pt-1 flex flex-wrap bg-gradient-to-l from-[#ffa455] to-[#ff3876] uppercase font-bold text-sm text-[#fff]">
             <Link href="/" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Home</Link>
-            <Link href="/about" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">About Us</Link>
-            <Link href="/Services" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Services</Link>
+            <Link href="/#about" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">About Us</Link>
+            <Link href="/#services" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Services</Link>
             <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Work Portfolio</Link>
-            <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Product Outlet</Link>
-            <Link href="/WorkPortfolio" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Conatct Us</Link>
-            <Link href="/WorkPortfolio" className="w-100 text-[#fff]">Request a Quote</Link>
+            <Link href="#fulfilling" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Product Outlet</Link>
+            <Link href="#footer" className="w-100 text-[#fff] pt-2 pb-2 border-b border-[#ffffff5e] border-solid ">Conatct Us</Link>
+            <Link href="/#getaquote" className="w-100 text-[#fff]">Request a Quote</Link>
         </div>
       )}
     </nav>
